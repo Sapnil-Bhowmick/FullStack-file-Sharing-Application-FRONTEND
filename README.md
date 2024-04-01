@@ -1,7 +1,7 @@
 ## SnapShot of the Application
 ___
 
-![gemini](https://github.com/Sapnil-Bhowmick/Google-Gemini/assets/118714419/bd12f234-50f0-43e1-8abc-3b0b8e7044c2)
+![snapshot](https://github.com/Sapnil-Bhowmick/FullStack-file-Sharing-Application-FRONTEND/assets/118714419/8768474f-bb6c-4d06-af9c-a5c310c2986e)
 
 ## ShareMe - 4 step process
 ___

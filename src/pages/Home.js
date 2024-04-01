@@ -27,8 +27,9 @@ const Home = () => {
                         </div>
 
                         <div className='desc'>
-                            Discover the file sharing solution with ShareMe. Effortlessly transfer files of any size securely and swiftly.
-                            Try ShareMe today and revolutionize your sharing journey!"
+                            Discover the file sharing solution with ShareMe. Effortlessly transfer files of any size securely 
+                            and swiftly.
+                            
                         </div>
 
                         <div className='desc1'>
