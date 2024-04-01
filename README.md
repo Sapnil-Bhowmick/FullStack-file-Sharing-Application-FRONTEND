@@ -41,7 +41,7 @@ ___
 
 * When a video or audio file is uploaded or updated, in the preview autoplay will occur, which the user can pause or play as desired.
 
-
+* Users can also upload a single folder containing files by clicking on **Choose Folder**. Make sure that the number of files within that folder is not greater than 5 since users can Upload at most 5 files **at once** 
 
 ## ShareMe - Notifications 
 
@@ -49,7 +49,7 @@ ___
 
 * Users **won't** be able to upload more than 5 files **all at once** through drag & drop or using "Choose File" link. A notification would pop up in such a case 
 
-* Upload at most 5 files at once (if needed)
+* Users can Upload at most 5 files **at once** (if needed)
 
 * Users can Upload as many files as they want and of any size. There is no restrictions on the file size , no of times a file gets downloaded and on the no of files a user can upload.
 
