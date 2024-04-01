@@ -25,6 +25,9 @@ ___
 ## Project Features
 ___
 
+* Users can Upload as many files as they want and of any size. There is no restrictions on the file size , no of times a file gets downloaded and on the no of files a user can upload.
+
+
 * A drag & drop area has been made for users to drag and drop multiple files at once. Users can also click on **Choose File** and either upload single or multiple files. 
 
 * On uploading a file the download section will pop-up which has **4 visible properties** 
@@ -51,7 +54,7 @@ ___
 
 * Users can Upload at most 5 files **at once** (if needed)
 
-* Users can Upload as many files as they want and of any size. There is no restrictions on the file size , no of times a file gets downloaded and on the no of files a user can upload.
+
 
 * > ## *At max 5 latest files uploaded will be displayed in UI*
 
