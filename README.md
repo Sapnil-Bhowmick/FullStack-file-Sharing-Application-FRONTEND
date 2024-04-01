@@ -53,7 +53,7 @@ ___
 
 * Users can Upload as many files as they want and of any size. There is no restrictions on the file size , no of times a file gets downloaded and on the no of files a user can upload.
 
-* > ## *At max 5 latest files uploaded will always be displayed in UI*
+* > ## *At max 5 latest files uploaded will be displayed in UI*
 
 ## Supported File Formats
 
