@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+## SnapShot of the Application
+___
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![gemini](https://github.com/Sapnil-Bhowmick/Google-Gemini/assets/118714419/bd12f234-50f0-43e1-8abc-3b0b8e7044c2)
 
-## Available Scripts
+## ShareMe - 4 step process
+___
 
-In the project directory, you can run:
+* Upload the required File
+* The File will be processed generating the download link 
+* Share the generated link to download the File
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ShareMe - A File Sharing Application 
+___
 
-### `npm test`
+* It is a fast and flexible file sharing application where users can upload files of **any type and size**, from documents and presentations to photos and videos. Say goodbye to the constraints of traditional file sharing methods - no more worrying about attachment limits or file compatibility issues. **ShareMe** ensures that your files are perfectly uploaded and readily accessible for sharing.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## About The Project
+___
+* **This is a full-stack fast and Flexible File sharing application with dynamic and real-time functionality.**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Features
+___
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* A drag & drop area has been made for users to drag and drop multiple files at once. Users can also click on **Choose File** and either upload single or multiple files. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* On uploading a file the download section will pop-up which has **4 visible properties** 
+  - A real time preview of the uploaded file (For any video, image, audio)
+  - The name of the uploaded file
+  - Progress Bar : It shows the real-time upload progress of the file at any time. When the uploading of the entire file is successful and complete, a tick mark will be shown indicating successful upload.
+  - A Dropdown
+    + **Share Link**: Select this option to copy the download link and share with anyone
 
-### `npm run eject`
+    + **Update File**: Users can update any of the required files by choosing any file from the local machine and can see in real-time the new download link , name, preview and status bar immediately being populated.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    + **Delete File**: After sharing the link and once the required file has been downloaded, users can delete that file from the database if they want. The specific file will be immediately deleted permanently from DB. The deleted file won't be visible anymore in the list of uploads in the  download section of UI.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* When a video or audio file is uploaded or updated, in the preview autoplay will occur, which the user can pause or play as desired.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ShareMe - Notifications 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Notification is provided for any of the successful operation choosen from dropdown along with the file name being updated , deleted or whose download link has been copied.
 
-### Code Splitting
+* Users **won't** be able to upload more than 5 files **all at once** through drag & drop or using "Choose File" link. A notification would pop up in such a case 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Upload at most 5 files at once (if needed)
 
-### Analyzing the Bundle Size
+* Users can Upload as many files as they want and of any size. There is no restrictions on the file size , no of times a file gets downloaded and on the no of files a user can upload.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* > *At max 5 latest files uploaded will always be displayed in UI*
 
-### Making a Progressive Web App
+## Supported File Formats
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* **All image files**
+* **Video files**
+* **Audio files**
 
-### Advanced Configuration
+## Specific Supported File Formats
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+*  **.exe**
+*  **.pdf**
+*  **.zip**
+*  **.docx**
+*  **.wav**
+*  **.html**
+*  **.pptx**
+*  **.txt**
+*  **.xlsx**
+*  **.mov**
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## More Features That could be added
+___
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Authentication can be implemented
+* Email feature can be implemented for directly mailing the links -- **(Easy)**
+* Groups and Contacts Lists can be created which will help in gaining in productivity for recurring transfers.
+
+
+
+
+  
