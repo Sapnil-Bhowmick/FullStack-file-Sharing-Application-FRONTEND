@@ -1,0 +1,161 @@
+
+.container{
+  /* display: flex; */
+}
+
+.uploadInp{
+  display:none
+}
+
+.previewImg{
+  width: 69px;
+  height: 41px;
+  object-fit: cover;
+}
+
+.single-main{
+  background-color: aliceblue;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px;
+}
+
+.single-Text{
+  text-align: center;
+}
+
+.single-uploadarea{
+  background-color: white;
+  width: 66%;
+  height: 11rem;
+  border: 3px dashed #afb9b9;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 27px;
+}
+
+.single-imgdiv{
+  display: flex;
+  justify-content: center;
+}
+
+.single-uploadLogo{
+  width: 38px;
+  height: 38px;
+}
+
+.single-text{
+  font-size: 12px;
+}
+
+.single-filelink{
+  font-size: 14px;
+  font-weight: bold;
+  color: #165c99;
+  cursor: pointer;
+}
+
+
+/*  --------  */
+
+
+
+
+
+.upload-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f6f9;
+  width: 29rem;
+  padding: 16px;
+  border: 2px solid #cdddd8;
+  border-radius: 7px;
+  margin-bottom: 8px;
+
+  animation: animeThumbnail;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+}
+
+@keyframes animeThumbnail {
+  0% {opacity: 0.3}
+  100% {opacity: 1}
+}
+
+.filename{
+  font-size: 12px;
+  font-weight: bold;
+  color: #12538c;
+  /* width: 8rem; */
+}
+
+.progressbar{
+  width: 80px;
+}
+
+.sharebtn{
+  background-color: white;
+  padding: 9px;
+  font-size: 10px;
+  font-weight: bold;
+  border: 1px solid #d7d0d0;
+  border-radius: 5px;
+}
+
+.sharebtn:hover{
+  background-color: #e3e3e8;
+  cursor: pointer;
+}
+
+.progressMain{
+  background-color: white;
+  width: 100px;
+  height: 8px;
+  border-radius: 10px;
+  border: 1px solid #c8bdbd;
+}
+
+.progresschild{
+  background-color: #4954ff;
+  width: 53px;
+  height: 8px;
+  border-radius: 10px;
+}
+
+
+
+.thumbnail-container{
+  background-color: #e1e1e1;
+  padding: 19px;
+  width: 33%;
+  margin-top: 18px;
+  
+}
+
+
+
+
+
+.hide-thumbnail-container{
+  display:none
+}
+
+.sharelink{
+  text-decoration: none;
+}
+
+.tick{
+  width: 23px;
+  height: 24px;
+}
+
+.progress-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
